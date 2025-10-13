@@ -50,9 +50,11 @@ Where:
 The stretching factors modify the standard DFT formulation by introducing frequency scaling:
 
 **Standard DFT**:
+
 $$F(u,v) = \sum_{x=0}^{M-1} \sum_{y=0}^{N-1} f(x,y) \cdot e^{-j2\pi\left(\frac{ux}{M} + \frac{vy}{N}\right)}$$
 
 **Frequency-Stretched DFT**:
+
 $$F_{stretched}(u,v) = \frac{1}{\alpha_2} \sum_{x=0}^{M-1} \sum_{y=0}^{N-1} f(x,y) \cdot e^{-j2\pi\left(\frac{ux}{M\alpha_1} + \frac{vy}{N\alpha_1}\right)}$$
 
 #### Physical Interpretation
