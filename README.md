@@ -10,7 +10,7 @@ Parseval's theorem establishes the fundamental relationship between energy in sp
 
 $$\sum_{x=0}^{M-1} \sum_{y=0}^{N-1} |f(x,y)|^2 = \frac{1}{MN} \sum_{u=0}^{M-1} \sum_{v=0}^{N-1} |F(u,v)|^2$$
 
-Where:
+where:
 - $f(x,y)$ is the spatial domain signal
 - $F(u,v)$ is the frequency domain representation
 - $M \times N$ is the image dimension
@@ -166,19 +166,6 @@ The demonstration evaluates:
 3. **Peak Signal-to-Noise Ratio (PSNR)**: Quality assessment
 4. **Computational Time**: Performance comparison
 5. **Frequency Domain Correlation**: Mathematical consistency
-
-## Usage
-
-```matlab
-% Run the complete demonstration
-parseval_demo
-
-% The script will generate:
-% - Timestamped output directory
-% - Test images and reconstructions
-% - Comprehensive analysis visualization
-% - Performance metrics and quality assessment
-```
 
 ## Mathematical Validation
 
